@@ -10,7 +10,24 @@
 
 
 ## Description and Facilities
-(Donde se ejecutan los códigos ; librerias a instalar)
+The code is set in the Python programming language.
+In general, there are the modules that are needed to execute satisfactorily the codes:
+
+- pandas
+- re
+- create_engine
+- numpy
+- pickle
+- joblib
+- time
+- nltk [nltk.download(['punkt', 'wordnet'])]
+- sklearn
+- json
+- plotly
+- flask
+- **Python version: 3.6.3**
+
+
 
 ## Motivation
 (La motivacion, el que, por que y para que)
