@@ -30,7 +30,10 @@ In general, there are the modules that are needed to execute satisfactorily the 
 
 
 ## Motivation
-(La motivacion, el que, por que y para que)
+Aid work that allows us to watch over and safeguard the life and integrity of people and animals in the face of any emergency or contingency is one of the tasks that, in my opinion, should be fully recognized without hesitation in sparing efforts. The tasks carried out by disaster units are highly complex; they are capable of risking their lives for ours.
+
+One of the greatest motivations when carrying out this project is the impact it could have on these activities and the timely organization of these entities to respond to the first call for the different requests that arise on a daily basis. For the community, help will always be available when it is essential; for the support entities, responding to emergencies from the first moment, as well as prioritizing each one according to its severity, this being a totally organized activity. The main motivation when carrying out this project lies, therefore, entirely in its impact on the lives of people.
+
 
 ## Description of files
 (Descripción de cada uno de los archivos anexos:
