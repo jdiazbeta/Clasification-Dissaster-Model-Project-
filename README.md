@@ -36,15 +36,24 @@ One of the greatest motivations when carrying out this project is the impact it 
 
 
 ## Description of files
-(Descripción de cada uno de los archivos anexos:
-- Base de mensajes
-- Base de categorias
-- Archivo Python para limpieza de datos
-- Archivo Python para entrenamiento de modelo
-- Archivo Python con aplicación
-- Archivo db generado con pipeline de limpieza
-- Archivo pkl con mejor modelo entrenado
-)
+Regarding databases, in the repository you can find:
+
+- [disaster_messages.csv](https://github.com/jdiazbeta/Clasification-Dissaster-Model-Project-/blob/05a9929038a5790d807111d675be7cf64da8a329/disaster_messages.csv) contains information about messages received from different disasters. Each message has a unique ID, the original message and the genre of the message (live, news, social).
+  
+- [disaster_categories.csv](https://github.com/jdiazbeta/Clasification-Dissaster-Model-Project-/blob/05a9929038a5790d807111d675be7cf64da8a329/disaster_categories.csv) contains the description of the categories to which the messages in the database [disaster_messages.csv] belong or refer. You will find information about the unique ID of the message and a description of the 36 categories with their respective identifier (1 if the message belongs to the category, 0 otherwise)
+  
+- [process_data.py](https://github.com/jdiazbeta/Clasification-Dissaster-Model-Project-/blob/05a9929038a5790d807111d675be7cf64da8a329/process_data.py) contiene el código en python empleado para el proceso ETL de las bases de datos [disaster_messages.csv] and [disaster_categories.csv]. El resultado al ejecutar este código sera la base de datos unificada y limpia. 
+ 
+- [train_classifier.py](https://github.com/jdiazbeta/Clasification-Dissaster-Model-Project-/blob/05a9929038a5790d807111d675be7cf64da8a329/train_classifier.py) contiene el proceso de entrenamiento, validación, creación y guardado del modelo de clasificación múltiple estimado con base a la base de datos limpia del primer proceso. El resultado al ejecutar el código será un archivo en formato pkl con el modelo resultante.
+
+- [run.py](https://github.com/jdiazbeta/Clasification-Dissaster-Model-Project-/blob/05a9929038a5790d807111d675be7cf64da8a329/run.py). Contiene el código que recrea la aplicación con descripciones de la base de datos entregada de mensajes, algunas visualizaciones y el clasificador de mensajes.
+
+- [templates.tar.gz](https://github.com/jdiazbeta/Clasification-Dissaster-Model-Project-/blob/05a9929038a5790d807111d675be7cf64da8a329/templates.tar.gz) carpeta comprimida que permite ejecutar el código [run.py], dando forma y estilo a la aplicación creada.
+  
+- [cleaned_fullbase_messages.db](https://github.com/jdiazbeta/Clasification-Dissaster-Model-Project-/blob/05a9929038a5790d807111d675be7cf64da8a329/cleaned_fullbase_messages.db). Ejemplo de la base de datos en formato sqlite, resultante al ejecutar el código [process_data.py]
+
+- [best_trained_model.pkl](https://github.com/jdiazbeta/Clasification-Dissaster-Model-Project-/blob/05a9929038a5790d807111d675be7cf64da8a329/best_trained_model.pkl). Ejemplo de la base de datos en formato pikle, resultante al ejecutar el código [train_classifier.py]
+
 
 ## Interacting with the project
 (Como se debe interactuar con los archivos (uno por uno) para la correcta ejecusión del proceso.
